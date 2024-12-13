@@ -15,7 +15,7 @@ class Letter:
     def get_first_name(self):
         return self._first_name
     
-    def get_last_name(self)
+    def get_last_name(self):
         return self._last_name
     
     def get_full_name(self):
