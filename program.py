@@ -69,3 +69,72 @@ class Program:
         except Exception as e:
             self._log_action(f"Error exporting children list: {str(e)}")
             raise
+
+    def importChildrenData(self):
+        #This imports the children list as naughty or nice status and updates letter objects
+        try:
+            with open("ChildrenList.csv", "r", newline='') as file:
+                reader = csv.DictReader(file)
+                nice_status = {}
+
+                for row in reader:
+                    letter_id = int(row["Letter ID"])
+                    is_nice = row["Nice"].lower() == "true"
+                    nice_status[letter_id] = is_nice
+
+                for letter in self._letters:
+                    if letter.get_id() in nice_status:
+                        letter.set_approved(nice_status[letter.get_id()])
+
+            self.saveLetterData()
+            self._log_action("Imported children data from CHildrenList.csv")
+
+        except FileNotFoundError:
+            error_msg = "ChildrenList.csv file not found"
+            self._log_action(f"Error! {error_msg}")
+            raise FileNotFoundError(error_msg)
+        except Exception as e:
+            self._log_action(f"Error importing children data: {str(e)}")
+            raise
+
+    def exportToyManufacturingData(self):
+        try:
+            headers = ["Name", "Category", "Description"]
+
+            with open("RequestedToys.csv", "w", newline='') as file:
+                writer = csv.writer(file)
+                writer.writenow(headers)
+
+                unique_toys = set()
+
+                for letter in self._letters:
+                    if letter.get_approved() == True:
+                        for toy in letter.get_toys():
+                            toy_info = (
+                                toy.get_name(),
+                                toy.get_category(),
+                                toy.get_description()
+                            )
+
+                            if toy_info not in unique_toys:
+                                unique_toys.add(toy_info)
+                                writer.writerow(toy_info)
+            
+            self._log_action("Exported toy manufacturing data to RequestedToys.csv")
+
+        except Exception as e:
+            self._log_action(f"Error exporting toy manufacturing data: {str(e)}")
+            raise
+
+    def saveLetterData(self):
+        try:
+            letters_data = []
+
+            for letter in self._letters:
+                letter_dict = {
+                    
+                }
+
+
+
+
