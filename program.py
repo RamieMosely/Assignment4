@@ -156,6 +156,16 @@ class Program:
             raise
 
 
+#Main Program Loop
+
+program = Program()
+program.openLetterData()
+program.exportChildrenList()
+program.importChildrenData()
+program.exportToyManufacturingData()
+
+
+
 
 
 
