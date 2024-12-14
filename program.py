@@ -132,8 +132,30 @@ class Program:
 
             for letter in self._letters:
                 letter_dict = {
-                    
+                    "id": letter.get_id(),
+                    "first_name": letter.get_first_name(),
+                    "last_name": letter.get_last_name(),
+                    "approved": letter.get_approved(),
+                    "toys": [
+                        {
+                            "name": toy.get_name(),
+                            "category": toy.get_category(),
+                            "description": toy.get_description()
+                        }
+                        for toy in letter.get_toys()
+                    ]
                 }
+                letters_data.append(letter_dict)
+
+            with open("Letters.json", "w") as file:
+                json.dump(letters_data, file, indent=4)
+            self._log_action("Saved letter data to Letters.json")
+
+        except Exception as e:
+            self._log_action(f"Error saving letter data: {str(e)}")
+            raise
+
+
 
 
 
