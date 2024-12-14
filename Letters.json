@@ -3,6 +3,7 @@
         "id": 1,
         "first_name": "Ava",
         "last_name": "Martinez",
+        "approved": false,
         "toys": [
             {
                 "name": "Walkie Talkies",
@@ -14,13 +15,13 @@
                 "category": "Dolls",
                 "description": "A fun and popular dolls toy called American Girl Doll."
             }
-        ],
-        "approved": false
+        ]
     },
     {
         "id": 2,
         "first_name": "Liam",
         "last_name": "Williams",
+        "approved": false,
         "toys": [
             {
                 "name": "Jump Rope",
@@ -42,13 +43,13 @@
                 "category": "Plush Toys",
                 "description": "A fun and popular plush toys toy called Plush Cat."
             }
-        ],
-        "approved": true
+        ]
     },
     {
         "id": 3,
         "first_name": "Mason",
         "last_name": "Hernandez",
+        "approved": false,
         "toys": [
             {
                 "name": "Barbie",
@@ -75,13 +76,13 @@
                 "category": "Plush Toys",
                 "description": "A fun and popular plush toys toy called Stuffed Unicorn."
             }
-        ],
-        "approved": true
+        ]
     },
     {
         "id": 4,
         "first_name": "Mason",
         "last_name": "Jones",
+        "approved": false,
         "toys": [
             {
                 "name": "Monster Truck",
@@ -98,13 +99,13 @@
                 "category": "Electronics",
                 "description": "A fun and popular electronics toy called Kids' Smartwatch."
             }
-        ],
-        "approved": null
+        ]
     },
     {
         "id": 5,
         "first_name": "Ava",
         "last_name": "Johnson",
+        "approved": false,
         "toys": [
             {
                 "name": "LOL Surprise Doll",
@@ -136,13 +137,13 @@
                 "category": "Sports",
                 "description": "A fun and popular sports toy called Soccer Ball."
             }
-        ],
-        "approved": null
+        ]
     },
     {
         "id": 6,
         "first_name": "Sophia",
         "last_name": "Martinez",
+        "approved": false,
         "toys": [
             {
                 "name": "Walkie Talkies",
@@ -154,13 +155,13 @@
                 "category": "Educational",
                 "description": "A fun and popular educational toy called Math Flash Cards."
             }
-        ],
-        "approved": false
+        ]
     },
     {
         "id": 7,
         "first_name": "Liam",
         "last_name": "Johnson",
+        "approved": false,
         "toys": [
             {
                 "name": "Kids' Tablet",
@@ -187,13 +188,13 @@
                 "category": "Educational",
                 "description": "A fun and popular educational toy called Puzzle Set."
             }
-        ],
-        "approved": null
+        ]
     },
     {
         "id": 8,
         "first_name": "Logan",
         "last_name": "Jones",
+        "approved": false,
         "toys": [
             {
                 "name": "Math Flash Cards",
@@ -210,13 +211,13 @@
                 "category": "Dolls",
                 "description": "A fun and popular dolls toy called Barbie."
             }
-        ],
-        "approved": true
+        ]
     },
     {
         "id": 9,
         "first_name": "Mia",
         "last_name": "Martinez",
+        "approved": false,
         "toys": [
             {
                 "name": "American Girl Doll",
@@ -233,13 +234,13 @@
                 "category": "Sports",
                 "description": "A fun and popular sports toy called Frisbee."
             }
-        ],
-        "approved": false
+        ]
     },
     {
         "id": 10,
         "first_name": "Isabella",
         "last_name": "Miller",
+        "approved": false,
         "toys": [
             {
                 "name": "Kids' Tablet",
@@ -256,13 +257,13 @@
                 "category": "Dolls",
                 "description": "A fun and popular dolls toy called LOL Surprise Doll."
             }
-        ],
-        "approved": null
+        ]
     },
     {
         "id": 11,
         "first_name": "Noah",
         "last_name": "Miller",
+        "approved": false,
         "toys": [
             {
                 "name": "Polly Pocket",
@@ -294,13 +295,13 @@
                 "category": "Electronics",
                 "description": "A fun and popular electronics toy called Kids' Tablet."
             }
-        ],
-        "approved": false
+        ]
     },
     {
         "id": 12,
         "first_name": "Liam",
         "last_name": "Hernandez",
+        "approved": false,
         "toys": [
             {
                 "name": "Frisbee",
@@ -327,13 +328,13 @@
                 "category": "Plush Toys",
                 "description": "A fun and popular plush toys toy called Plush Cat."
             }
-        ],
-        "approved": true
+        ]
     },
     {
         "id": 13,
         "first_name": "Amelia",
         "last_name": "Davis",
+        "approved": false,
         "toys": [
             {
                 "name": "Walkie Talkies",
@@ -360,13 +361,13 @@
                 "category": "Educational",
                 "description": "A fun and popular educational toy called Science Kit."
             }
-        ],
-        "approved": false
+        ]
     },
     {
         "id": 14,
         "first_name": "Ethan",
         "last_name": "Hernandez",
+        "approved": false,
         "toys": [
             {
                 "name": "Math Flash Cards",
@@ -383,13 +384,13 @@
                 "category": "Plush Toys",
                 "description": "A fun and popular plush toys toy called Plush Dog."
             }
-        ],
-        "approved": false
+        ]
     },
     {
         "id": 15,
         "first_name": "Sophia",
         "last_name": "Davis",
+        "approved": false,
         "toys": [
             {
                 "name": "American Girl Doll",
@@ -406,13 +407,13 @@
                 "category": "Vehicles",
                 "description": "A fun and popular vehicles toy called Monster Truck."
             }
-        ],
-        "approved": null
+        ]
     },
     {
         "id": 16,
         "first_name": "Logan",
         "last_name": "Hernandez",
+        "approved": false,
         "toys": [
             {
                 "name": "Plush Dog",
@@ -434,13 +435,13 @@
                 "category": "Plush Toys",
                 "description": "A fun and popular plush toys toy called Stuffed Unicorn."
             }
-        ],
-        "approved": true
+        ]
     },
     {
         "id": 17,
         "first_name": "Ava",
         "last_name": "Jones",
+        "approved": false,
         "toys": [
             {
                 "name": "Soccer Ball",
@@ -472,13 +473,13 @@
                 "category": "Plush Toys",
                 "description": "A fun and popular plush toys toy called Plush Dog."
             }
-        ],
-        "approved": null
+        ]
     },
     {
         "id": 18,
         "first_name": "Mia",
         "last_name": "Brown",
+        "approved": false,
         "toys": [
             {
                 "name": "RC Helicopter",
@@ -490,13 +491,13 @@
                 "category": "Plush Toys",
                 "description": "A fun and popular plush toys toy called Plush Cat."
             }
-        ],
-        "approved": null
+        ]
     },
     {
         "id": 19,
         "first_name": "Sophia",
         "last_name": "Martinez",
+        "approved": false,
         "toys": [
             {
                 "name": "Plush Cat",
@@ -518,13 +519,13 @@
                 "category": "Educational",
                 "description": "A fun and popular educational toy called Math Flash Cards."
             }
-        ],
-        "approved": true
+        ]
     },
     {
         "id": 20,
         "first_name": "Sophia",
         "last_name": "Brown",
+        "approved": false,
         "toys": [
             {
                 "name": "Jump Rope",
@@ -546,13 +547,13 @@
                 "category": "Plush Toys",
                 "description": "A fun and popular plush toys toy called Plush Dog."
             }
-        ],
-        "approved": null
+        ]
     },
     {
         "id": 21,
         "first_name": "Liam",
         "last_name": "Miller",
+        "approved": false,
         "toys": [
             {
                 "name": "Plush Cat",
@@ -569,13 +570,13 @@
                 "category": "Sports",
                 "description": "A fun and popular sports toy called Frisbee."
             }
-        ],
-        "approved": null
+        ]
     },
     {
         "id": 22,
         "first_name": "Amelia",
         "last_name": "Garcia",
+        "approved": false,
         "toys": [
             {
                 "name": "LOL Surprise Doll",
@@ -587,13 +588,13 @@
                 "category": "Educational",
                 "description": "A fun and popular educational toy called Interactive Globe."
             }
-        ],
-        "approved": null
+        ]
     },
     {
         "id": 23,
         "first_name": "Ethan",
         "last_name": "Jones",
+        "approved": false,
         "toys": [
             {
                 "name": "Jump Rope",
@@ -605,13 +606,13 @@
                 "category": "Plush Toys",
                 "description": "A fun and popular plush toys toy called Plush Dog."
             }
-        ],
-        "approved": true
+        ]
     },
     {
         "id": 24,
         "first_name": "Mason",
         "last_name": "Smith",
+        "approved": false,
         "toys": [
             {
                 "name": "Stuffed Dinosaur",
@@ -628,13 +629,13 @@
                 "category": "Sports",
                 "description": "A fun and popular sports toy called Frisbee."
             }
-        ],
-        "approved": null
+        ]
     },
     {
         "id": 25,
         "first_name": "Logan",
         "last_name": "Smith",
+        "approved": false,
         "toys": [
             {
                 "name": "Kids' Smartwatch",
@@ -646,13 +647,13 @@
                 "category": "Sports",
                 "description": "A fun and popular sports toy called Frisbee."
             }
-        ],
-        "approved": null
+        ]
     },
     {
         "id": 26,
         "first_name": "Ethan",
         "last_name": "Davis",
+        "approved": false,
         "toys": [
             {
                 "name": "Soccer Ball",
@@ -669,13 +670,13 @@
                 "category": "Vehicles",
                 "description": "A fun and popular vehicles toy called RC Helicopter."
             }
-        ],
-        "approved": false
+        ]
     },
     {
         "id": 27,
         "first_name": "Noah",
         "last_name": "Hernandez",
+        "approved": false,
         "toys": [
             {
                 "name": "LOL Surprise Doll",
@@ -692,13 +693,13 @@
                 "category": "Dolls",
                 "description": "A fun and popular dolls toy called Polly Pocket."
             }
-        ],
-        "approved": false
+        ]
     },
     {
         "id": 28,
         "first_name": "Ethan",
         "last_name": "Jones",
+        "approved": false,
         "toys": [
             {
                 "name": "LEGO Race Car",
@@ -725,13 +726,13 @@
                 "category": "Vehicles",
                 "description": "A fun and popular vehicles toy called Tonka Truck."
             }
-        ],
-        "approved": null
+        ]
     },
     {
         "id": 29,
         "first_name": "Ava",
         "last_name": "Miller",
+        "approved": false,
         "toys": [
             {
                 "name": "Baby Alive",
@@ -758,13 +759,13 @@
                 "category": "Dolls",
                 "description": "A fun and popular dolls toy called American Girl Doll."
             }
-        ],
-        "approved": false
+        ]
     },
     {
         "id": 30,
         "first_name": "Logan",
         "last_name": "Williams",
+        "approved": false,
         "toys": [
             {
                 "name": "Stuffed Unicorn",
@@ -796,7 +797,6 @@
                 "category": "Vehicles",
                 "description": "A fun and popular vehicles toy called LEGO Race Car."
             }
-        ],
-        "approved": false
+        ]
     }
 ]

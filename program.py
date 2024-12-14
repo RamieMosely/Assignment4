@@ -24,7 +24,7 @@ class Program:
             log_file.write(f"{timestamp}: {action}\n")
 
     def openLetterData(self):
-        """Opens and reads letter data from JSON file"""
+        #Opens and reads letter data from JSON file
         try:
             with open("Letters.json", "r") as file:
                 data = json.load(file)
@@ -87,7 +87,7 @@ class Program:
                         letter.set_approved(nice_status[letter.get_id()])
 
             self.saveLetterData()
-            self._log_action("Imported children data from CHildrenList.csv")
+            self._log_action("Imported children data from ChildrenList.csv")
 
         except FileNotFoundError:
             error_msg = "ChildrenList.csv file not found"
@@ -103,7 +103,7 @@ class Program:
 
             with open("RequestedToys.csv", "w", newline='') as file:
                 writer = csv.writer(file)
-                writer.writenow(headers)
+                writer.writerow(headers)
 
                 unique_toys = set()
 
